@@ -27,6 +27,7 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET
 
+'''
 voc_classes = {
     'aeroplane'   : 0,
     'bicycle'     : 1,
@@ -48,6 +49,11 @@ voc_classes = {
     'sofa'        : 17,
     'train'       : 18,
     'tvmonitor'   : 19
+}
+'''
+
+voc_classes = {
+	'RBC' : 0
 }
 
 
